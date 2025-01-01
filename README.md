@@ -32,7 +32,7 @@ The project is under MIT License.
 
 * Real-time weather API [WeatherAPI](https://www.weatherapi.com/)
 * Search/Autocomplete API [OpenWeatherMap](https://openweathermap.org/)
-* UI inspired from [Budiarti](https://dribbble.com/shots/16833006-Weather-App-Dashboard-Design)
+* UI inspired from [Budiarti](https://dribbble.com/shots/16833006-Weather-App-Dashboard-Design), [React Icons](https://react-icons.github.io/react-icons/)
 
 # Built with
 [![React][React.js]][React-url]
