@@ -1,8 +1,8 @@
-# WeatherMan
+# DKU Weather App
 
 This is a simple weather dashboard built using React and powered by WeatherApi and OpenWeatherMap.
 
-![WeatherMan Home page](wmOne.png)
+![DKU Weather App Home page](wmOne.png)
 
 # Getting started with the project
 
