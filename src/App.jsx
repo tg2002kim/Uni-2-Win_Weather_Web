@@ -1,3 +1,4 @@
+import { FaGithub } from "react-icons/fa";
 import { MdGpsFixed } from "react-icons/md";
 import { FaRegMoon } from "react-icons/fa";
 import { FaSun } from "react-icons/fa6";
@@ -50,26 +51,40 @@ const App = () => {
 
   return (
     <div className={isDarkMode ? 'app dark-mode' : 'app light-mode'}>
-      {/* Main Row with TopBar and Toggle Button */}
-      <div className="row align-items-center">
-        <div className="col-8">
-          {/* TopBar Component */}
-          <TopBar changeData={(dd) => setDta(dd)} classDetails="d-block" />
-        </div>
+  {/* Main Row with TopBar and Toggle Button */}
+  <div className="row align-items-center">
+    <div className="col-8">
+      {/* TopBar Component */}
+      <TopBar changeData={(dd) => setDta(dd)} classDetails="d-block" />
+    </div>
 
-        <div className="col-2 text-end">
-          {/* Dark/Light Mode Toggle Button */}
-          <button onClick={toggleMode} className="toggle-btn">
-            {isDarkMode ? <FaSun /> : <FaRegMoon />}
-          </button>
-        </div>
+    <div className="col-4 text-end">
+      <div className="d-inline-block me-2">
+        {/* Dark/Light Mode Toggle Button */}
+        <button onClick={toggleMode} className="toggle-btn">
+          {isDarkMode ? <FaSun /> : <FaRegMoon />}
+        </button>
+      </div>
 
-        <div className="col-2 text-end">
-          {/* GPS Button */}
-          <button onClick={fetchWeatherByGPS} className="toggle-btn" disabled={loading}>
-            {loading ? 'Loading...' : <MdGpsFixed />}
-          </button>
-        </div>
+      <div className="d-inline-block me-2">
+        {/* GPS Button */}
+        <button onClick={fetchWeatherByGPS} className="toggle-btn" disabled={loading}>
+          {loading ? 'Loading...' : <MdGpsFixed />}
+        </button>
+      </div>
+
+      <div className="d-inline-block">
+        {/* GitHub Button */}
+        <button
+          onClick={() => window.location.href = 'https://github.com/Minsu4302/OpenSource-Project'}
+          className="toggle-btn"
+        >
+          <FaGithub /> OpenSource GitHub
+        </button>
+      </div>
+    </div>
+
+
       </div>
 
       {dta ? (

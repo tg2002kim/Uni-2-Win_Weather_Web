@@ -81,6 +81,14 @@ body, html {
   transition: background-color 0.3s, color 0.3s;
 }
 
+.light-mode .welcome-box {
+  background-color: #ffffff;
+}
+
+.dark-mode .welcome-box {
+  background-color: #1e1e1e;
+}
+
 .light-mode .left-box {
   background-color: #ffffff;
 }
