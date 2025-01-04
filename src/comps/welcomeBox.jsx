@@ -55,43 +55,42 @@ const WelcomeBox = ({ changeData }) => {
                             <br />
                         </form>
                         <div className="d-flex justify-content-around mt-3">
-    <button 
-        className="btn rounded-5" 
-        style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
-        onClick={() => handleQuickSearch('서울')}
-    >
-        서울 <BsAirplaneFill />
-    </button>
-    <button 
-        className="btn rounded-5" 
-        style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
-        onClick={() => handleQuickSearch('오사카')}
-    >
-        오사카 <BsAirplaneFill />
-    </button>
-    <button 
-        className="btn rounded-5" 
-        style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
-        onClick={() => handleQuickSearch('파리')}
-    >
-        파리 <BsAirplaneFill />
-    </button>
-    <button 
-        className="btn rounded-5" 
-        style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
-        onClick={() => handleQuickSearch('로스앤젤레스')}
-    >
-        로스앤젤레스 <BsAirplaneFill />
-    </button>
-    <button 
-        className="btn rounded-5" 
-        style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
-        onClick={() => handleQuickSearch('두바이')}
-    >
-        두바이 <BsAirplaneFill />
-    </button>
-</div>
-
+                            <button 
+                                className="btn rounded-5" 
+                                style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
+                                onClick={() => handleQuickSearch('서울')}
+                            >
+                                서울 <BsAirplaneFill />
+                            </button>
+                            <button 
+                                className="btn rounded-5" 
+                                style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
+                                onClick={() => handleQuickSearch('오사카')}
+                            >
+                                오사카 <BsAirplaneFill />
+                            </button>
+                            <button 
+                                className="btn rounded-5" 
+                                style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
+                                onClick={() => handleQuickSearch('파리')}
+                            >
+                                파리 <BsAirplaneFill />
+                            </button>
+                            <button 
+                                className="btn rounded-5" 
+                                style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
+                                onClick={() => handleQuickSearch('로스앤젤레스')}
+                            >
+                                로스앤젤레스 <BsAirplaneFill />
+                            </button>
+                            <button 
+                                className="btn rounded-5" 
+                                style={{ backgroundColor: '#4a4a4a', color: '#ffffff', padding: '10px', borderRadius: '5px' }}
+                                onClick={() => handleQuickSearch('두바이')}
+                            >
+                                두바이 <BsAirplaneFill />
+                            </button>
+                        </div>
                     </div>
                     <div className="col-lg-3"></div>
                 </div>

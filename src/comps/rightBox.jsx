@@ -108,7 +108,7 @@ const RightBox = ({ wthrData }) => {
             <UVBox uv={wthrData.current.uv} />
             <div className="d-none d-lg-block">
                 <div className=" h2 mx-auto p-2" style={{ "width": "auto" }}>
-                    Weather Prediction
+                    Weather Forecast
                 </div>
 
                 <WFBox content={wthrData.forecast.forecastday[1]} />
