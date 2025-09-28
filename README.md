@@ -1,3 +1,5 @@
+Dankook University, 2nd Year Winter Session (Winter 2024)
+
 # DKU Weather App
 
 **Open Source AI Applications Project - React + Weather APIs**
