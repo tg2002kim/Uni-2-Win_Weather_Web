@@ -58,15 +58,18 @@ npm run dev
 ---
 
 ## Repository Structure
-dku-weather-app/
-├── src/
-│   ├── components/        # Reusable UI components (e.g., WeatherCard)
-│   ├── pages/             # Main application views
-│   ├── services/          # Centralized API handling and data fetching logic
-│   └── App.jsx            # Main component setup
-├── .env.example           # Example file for API keys
-├── index.html
-└── vite.config.js
+
+| File/Directory | Description |
+| :--- | :--- |
+| **dkku-weather-app/** | The main directory for the weather application. |
+| ├── **src/** | Contains all of the source code for the application. |
+| ├── ├── **components/** | A folder for reusable UI components, like `WeatherCard`. |
+| ├── ├── **pages/** | Holds the main views and pages of the application. |
+| ├── ├── **services/** | Centralized location for API handling and data fetching logic. |
+| ├── ├── `App.jsx` | The main component that sets up the application's structure. |
+| ├── ├── `.env.example` | An example file for configuring API keys and environment variables. |
+| ├── ├── `index.html` | The entry point for the web application. |
+| └── └── `vite.config.js` | The configuration file for the Vite build tool. |
 
 ---
 
